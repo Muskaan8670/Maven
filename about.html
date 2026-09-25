@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | Zhejiang Maven Industrial Technology Co., Ltd.</title>
-  <meta name="description" content="Discover Maven's 40+ year heritage in packaging manufacturing. Established 1984, Meitong Group subsidiary, 538,000 sq ft facility in Zhejiang, and Miami FL US support office.">
+  <title>About Maven Industrial Technology | 42 Years Manufacturing Heritage</title>
+  <meta name="description" content="Learn about Zhejiang Maven Industrial Technology Co., Ltd., subsidiary of Meitong Group. Over 42 years of manufacturing heritage since 1984, 538,000 sq ft facility, and direct manufacturer of glass, plastic, and paper packaging.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
+  <!-- SITE HEADER -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="brand-logo">
@@ -21,112 +24,184 @@
         <a href="index.html" class="nav-item">Home</a>
         <a href="about.html" class="nav-item active">About</a>
         <a href="solutions.html" class="nav-item">Solutions</a>
-        <a href="products.html" class="nav-item">Products</a>
+        
+        <!-- Products Sub-navigation Dropdown -->
+        <div class="nav-dropdown-wrapper">
+          <a href="products.html" class="nav-item">Products <span style="font-size: 0.7rem; margin-left: 0.2rem;">▼</span></a>
+          <div class="nav-dropdown-menu">
+            <a href="products.html?cat=fragrance">Fragrance Bottles</a>
+            <a href="products.html?cat=cosmetic">Skincare & Cosmetics</a>
+            <a href="products.html?cat=plastic">Plastic Bottles & Pumps</a>
+            <a href="products.html?cat=nutra">Nutraceutical Jars</a>
+            <a href="products.html?cat=paper">Luxury Rigid Boxes</a>
+          </div>
+        </div>
+
         <a href="industries.html" class="nav-item">Industries</a>
         <a href="sustainability.html" class="nav-item">Sustainability</a>
         <a href="contact.html" class="nav-item">Contact</a>
-        <a href="#rfq" class="btn btn-gold trigger-rfq" style="padding: 0.65rem 1.25rem;">REQUEST A QUOTE</a>
+        <a href="#rfq" class="btn btn-gold trigger-rfq" style="padding: 0.6rem 1.4rem;">REQUEST A QUOTE</a>
       </nav>
 
       <button class="mobile-toggle" aria-label="Toggle Navigation">&#9776;</button>
     </div>
   </header>
 
-  <!-- PAGE HERO (MODE A: MAVEN GREEN) -->
-  <section class="section mode-maven-green" style="padding: 5rem 0 4rem;">
-    <div class="container" style="text-align: center;">
-      <span class="badge-contrast" style="margin-bottom: 1rem;">COMPANY HISTORY & HERITAGE</span>
-      <h1 class="display-title" style="font-size: 3.5rem; margin-bottom: 1rem;">ABOUT ZHEJIANG MAVEN</h1>
-      <p class="editorial-lead" style="max-width: 720px; margin: 0 auto; color: rgba(255, 255, 255, 0.88);">Over 40 years of direct manufacturing expertise in primary glass packaging and luxury secondary paper packaging.</p>
-    </div>
-  </section>
-
-  <!-- HERITAGE (MODE B: WARM IVORY) -->
-  <section class="section mode-ivory">
-    <div class="container statement-rail-grid">
-      <div class="statement-sticky-rail">
-        <div class="section-num">01 — HERITAGE</div>
-        <h3 style="font-size: 1.3rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-maven-green-dark);">FOUNDED 1984</h3>
-        <p style="font-size: 0.88rem; color: var(--color-text-muted); margin-top: 0.5rem;">Located in Tongxiang, Zhejiang, China. Key subsidiary of Meitong Group since 2019.</p>
-      </div>
-
-      <div>
-        <h2 class="editorial-heading" style="color: var(--color-maven-green-dark); margin-bottom: 1.5rem;">FOUR DECADES OF PACKAGING HERITAGE</h2>
-        <p style="font-size: 1.05rem; color: var(--color-text-muted); margin-bottom: 1.25rem;">Zhejiang Maven Industrial Technology Co., Ltd. was established in 1984 in Tongxiang, Zhejiang, China, situated in the industrial center of Jiangsu, Zhejiang, and Shanghai. For over four decades, Maven has dedicated its core focus to packaging container development, glass forming, and luxury box manufacturing.</p>
-        <p style="font-size: 1.05rem; color: var(--color-text-muted); margin-bottom: 2rem;">In 2019, Maven became an integral subsidiary of <strong>Meitong Group</strong> (MEITONG GROUP), enhancing our research capabilities, factory automation, and international service network.</p>
-
-        <div style="margin-bottom: 2.5rem;">
-          <img src="images/factory.jpg" alt="Maven Manufacturing Base and Headquarters" style="border-radius: var(--radius-sm); box-shadow: var(--shadow-card); width: 100%;">
-        </div>
-
-        <div style="background-color: var(--color-white); padding: 2rem; border-left: 4px solid var(--color-gold-accent); box-shadow: var(--shadow-subtle);">
-          <h4 style="color: var(--color-maven-green-dark); margin-bottom: 0.4rem;">Core Corporate Ideology</h4>
-          <p style="font-size: 0.95rem; color: var(--color-text-muted);">Committed to producing products perfectly. We aim to provide original product design, structural concept development, and sustainable packaging solutions for our global brand partners.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- DIRECT FACTORY SCALE (MODE C: CLEAN WHITE) -->
-  <section class="section mode-white">
+  <!-- PAGE HERO (DARK CHARCOAL) -->
+  <section class="section mode-charcoal" style="padding: 5.5rem 0 4.5rem; text-align: center;">
     <div class="container">
-      <div class="section-num">02 — INFRASTRUCTURE</div>
-      <h2 class="editorial-heading" style="margin-bottom: 1rem;">DIRECT FACTORY CAPABILITY</h2>
-      <p class="editorial-lead" style="max-width: 720px; margin-bottom: 3.5rem;">Combining state-of-the-art manufacturing in China with dedicated customer support in North America.</p>
+      <span class="section-num" style="justify-content: center;">MANUFACTURING EXCELLENCE</span>
+      <h1 class="display-title" style="font-size: 3.5rem; margin-bottom: 1.25rem; color: var(--color-white);">ABOUT MAVEN INDUSTRIAL</h1>
+      <p class="editorial-lead" style="max-width: 760px; margin: 0 auto; color: var(--color-text-inverse-muted);">Direct factory scale, 42 years of combined manufacturing heritage, and integrated primary and secondary packaging solutions for global prestige brands.</p>
+    </div>
+  </section>
 
-      <div class="manufacturing-layout" style="margin-bottom: 4rem;">
-        <div class="factory-image-stack">
-          <img src="images/factory.jpg" alt="Maven Manufacturing Base" class="factory-img-lead">
-          <div class="factory-img-badge">
-            <span class="val">538,000</span>
-            <span class="lbl">Sq Ft Facility Area</span>
+  <!-- SECTION 1: CORPORATE HERITAGE & MEITONG GROUP (WARM IVORY) -->
+  <section class="section mode-ivory">
+    <div class="container">
+      <div class="heritage-split-grid">
+        <div class="heritage-img-block">
+          <img src="images/factory.jpg" alt="Zhejiang Maven Industrial Technology Facility Headquarters">
+        </div>
+
+        <div>
+          <span class="section-num">OUR HERITAGE</span>
+          <h2 class="editorial-heading" style="margin-bottom: 1.5rem;">42 YEARS OF MANUFACTURING HERITAGE</h2>
+
+          <div class="heritage-quote-box">
+            “Backed by Meitong Group’s manufacturing heritage dating to 1984, Zhejiang Maven Industrial Technology Co., Ltd. delivers integrated primary and secondary packaging solutions to global brands.”
+          </div>
+
+          <p class="editorial-lead" style="font-size: 1rem; margin-bottom: 1.5rem;">
+            Zhejiang Maven Industrial Technology Co., Ltd. operates as the dedicated international B2B packaging entity of Meitong Group. Founded in 1984, Meitong Group established over four decades of industrial engineering leadership in glass melting, automated bottle production, plastic injection molding, and luxury rigid box manufacturing.
+          </p>
+
+          <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 2.25rem;">
+            With direct sales representation through <strong>MAVEN US LLC</strong> in Miami, Florida, Maven offers North American and European brand owners direct factory communication, rapid sampling, technical CAD drawings, and complete supply chain transparency.
+          </p>
+
+          <div class="stats-counter-grid">
+            <div class="stat-counter-item">
+              <span class="stat-val">42 YEARS</span>
+              <span class="stat-lbl">Manufacturing Heritage</span>
+            </div>
+            <div class="stat-counter-item">
+              <span class="stat-val">538,000 SQ FT</span>
+              <span class="stat-lbl">Manufacturing Facility</span>
+            </div>
+            <div class="stat-counter-item">
+              <span class="stat-val">5,000+</span>
+              <span class="stat-lbl">Bottle & Jar Designs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: INTEGRATED MANUFACTURING CAPABILITIES (WARM IVORY WARM) -->
+  <section class="section mode-ivory-warm">
+    <div class="container">
+      <div class="section-header-flex">
+        <div class="section-header-left">
+          <span class="section-num">INTEGRATED PRODUCTION</span>
+          <h2 class="editorial-heading">PRIMARY & SECONDARY PACKAGING UNDER ONE ROOF</h2>
+        </div>
+        <div class="section-header-right">
+          <p class="editorial-lead">
+            Eliminate multi-vendor friction, component dimension mismatches, and color inconsistency by sourcing bottles, pumps, closures, and rigid gift boxes from one single partner.
+          </p>
+        </div>
+      </div>
+
+      <div class="categories-5col-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="cat-tile-card">
+          <div class="cat-tile-img-wrapper" style="aspect-ratio: 16/10;">
+            <img src="images/glass.jpg" alt="Primary Glass Container Manufacturing">
+          </div>
+          <div class="cat-tile-body">
+            <h3 class="cat-tile-title">GLASS BOTTLES & JARS</h3>
+            <p class="cat-tile-sub">High-clarity soda-lime and flint glass for perfume, serums, and supplement jars.</p>
           </div>
         </div>
 
-        <div>
-          <h3 style="font-size: 1.8rem; color: var(--color-maven-green-dark); margin-bottom: 1.25rem;">Manufacturing Base in Zhejiang, China</h3>
-          <p style="color: var(--color-text-muted); font-size: 1rem; margin-bottom: 1.5rem;">Our primary production facility encompasses <strong>538,000 sq ft</strong> of total building area in Heshan Industrial Park, Tongxiang City, Zhejiang Province.</p>
-
-          <ul style="line-height: 2; color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 2rem;">
-            <li>&#10004; Automated glass forming lines & post-processing workshops</li>
-            <li>&#10004; Dust-free clean coating & optical spray painting lines</li>
-            <li>&#10004; High-precision silk screen printing & hot stamping equipment</li>
-            <li>&#10004; Automated paper rigid box and folding carton assembly lines</li>
-            <li>&#10004; Integrated automated inspection testing equipment</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="ecosystem-container">
-        <div>
-          <h3 style="font-size: 1.8rem; color: var(--color-maven-green-dark); margin-bottom: 1.25rem;">MAVEN US LLC in Miami, Florida</h3>
-          <p style="color: var(--color-text-muted); font-size: 1rem; margin-bottom: 1.5rem;">To provide faster service, clear English communication, and real-time coordination for our Western partners, Maven operates <strong>MAVEN US LLC</strong> in Miami, Florida.</p>
-          <p style="color: var(--color-text-muted); font-size: 0.95rem;">Led by Ava Bao, Director of International Business Development, our North American team manages project evaluations, sample coordination, and direct communication to ensure smooth execution from initial draft to final delivery.</p>
+        <div class="cat-tile-card">
+          <div class="cat-tile-img-wrapper" style="aspect-ratio: 16/10;">
+            <img src="images/product_dpg.jpg" alt="Plastic PET PP PCR Packaging">
+          </div>
+          <div class="cat-tile-body">
+            <h3 class="cat-tile-title">PLASTIC BOTTLES & PUMPS</h3>
+            <p class="cat-tile-sub">Lightweight PET, PP, and PCR bottles, fine mist sprayers, treatment pumps, and caps.</p>
+          </div>
         </div>
 
-        <div>
-          <img src="images/why_integrated.jpg" alt="Maven US Office Support Miami FL" style="border-radius: var(--radius-sm); box-shadow: var(--shadow-card);">
+        <div class="cat-tile-card">
+          <div class="cat-tile-img-wrapper" style="aspect-ratio: 16/10;">
+            <img src="images/paper.jpg" alt="Luxury Rigid Paper Box Production">
+          </div>
+          <div class="cat-tile-body">
+            <h3 class="cat-tile-title">LUXURY RIGID BOXES</h3>
+            <p class="cat-tile-sub">Custom magnetic presentation boxes, folding cartons, and precision protective inserts.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- SECTION 3: PROJECT CTA BANNER (WARM IVORY) -->
+  <section class="section mode-ivory">
+    <div class="container">
+      <div class="project-cta-card">
+        <div class="project-cta-content">
+          <span class="eyebrow-label">READY TO WORK WITH US?</span>
+          <h2 class="editorial-heading" style="margin-bottom: 1.25rem;">WORK WITH MAVEN ENGINEERING TEAM</h2>
+          <p class="editorial-lead" style="font-size: 1.05rem; margin-bottom: 2.25rem;">
+            Discuss your bottle dimensions, custom mold project, or sample request directly with Ava Bao, Director of Business Development.
+          </p>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="#rfq" class="btn btn-gold trigger-rfq">START YOUR PROJECT &rarr;</a>
+            <a href="contact.html" class="btn btn-outline-dark">CONTACT MAVEN TEAM &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-cta-image">
+          <img src="images/why_integrated.jpg" alt="Maven Integrated Packaging Showcase">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SITE FOOTER (DEEP CHARCOAL) -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-top-grid">
-        <div class="footer-brand">
+        
+        <!-- Column 1: Brand & Overview -->
+        <div class="footer-col footer-brand-col">
           <div class="logo-main">MAVEN</div>
           <div class="logo-sub">INDUSTRIAL TECHNOLOGY</div>
-          <p style="font-size: 0.88rem; line-height: 1.6; color: rgba(255, 255, 255, 0.7); margin-top: 1rem;">
-            Zhejiang Maven Industrial Technology Co., Ltd. (Subsidiary of Meitong Group). Direct manufacturer of glass containers and luxury paper packaging since 1984.
+          <div class="gold-dash-underline"></div>
+          <p class="footer-brand-desc">
+            Zhejiang Maven Industrial Technology Co., Ltd. (Subsidiary of Meitong Group). Direct manufacturer of primary glass containers, plastic packaging, and luxury paper packaging since 1984.
           </p>
+          <div class="social-icons-row">
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.72a1.49 1.49 0 1 0 0 2.97 1.49 1.49 0 0 0 0-2.97z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="YouTube">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Instagram">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
         </div>
 
-        <div class="footer-links-col">
-          <h4>Navigation</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">QUICK LINKS</h4>
+          <div class="gold-dash-underline"></div>
+          <ul class="footer-nav-list">
             <li><a href="about.html">About Us</a></li>
             <li><a href="solutions.html">Solutions</a></li>
             <li><a href="products.html">Products</a></li>
@@ -136,42 +211,91 @@
           </ul>
         </div>
 
-        <div class="footer-links-col">
-          <h4>Solutions</h4>
-          <ul>
-            <li><a href="products.html?cat=glass">Primary Glass Bottles</a></li>
-            <li><a href="products.html?cat=paper">Luxury Paper Boxes</a></li>
-            <li><a href="products.html?cat=fragrance">Fragrance Packaging</a></li>
-            <li><a href="products.html?cat=cosmetic">Skincare & Cosmetics</a></li>
-            <li><a href="products.html?cat=nutra">Nutraceutical Jars</a></li>
-            <li><a href="solutions.html">Decoration Technologies</a></li>
+        <!-- Column 3: Product Categories -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">PRODUCT CATEGORIES</h4>
+          <div class="gold-dash-underline"></div>
+          <ul class="footer-nav-list">
+            <li><a href="products.html?cat=glass">Glass Packaging</a></li>
+            <li><a href="products.html?cat=plastic">Plastic Packaging</a></li>
+            <li><a href="products.html?cat=paper">Luxury Paper Packaging</a></li>
+            <li><a href="solutions.html">Custom Packaging &amp; Molds</a></li>
           </ul>
         </div>
 
-        <div class="footer-links-col">
-          <h4>Direct Contact</h4>
-          <p style="font-size: 0.9rem; color: var(--color-white); margin-bottom: 0.4rem;"><strong>Ava Bao</strong></p>
-          <p style="font-size: 0.82rem; color: rgba(255, 255, 255, 0.7); margin-bottom: 0.6rem;">Director of International Business</p>
-          <p style="font-size: 0.85rem; margin-bottom: 0.4rem;">Email: <a href="mailto:ava.bao@mavencn.com" style="color: var(--color-gold-accent);">ava.bao@mavencn.com</a></p>
-          <p style="font-size: 0.85rem; margin-bottom: 1rem;">WhatsApp: <a href="tel:+12065677777" style="color: var(--color-gold-accent);">+1 206 567 7777</a></p>
-          <p style="font-size: 0.78rem; color: rgba(255, 255, 255, 0.5);">HQ: Tongxiang, Zhejiang, China<br>US Branch: MAVEN US LLC, Miami, FL</p>
+        <!-- Column 4: Contact Us -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">CONTACT US</h4>
+          <div class="gold-dash-underline"></div>
+          <div class="footer-contact-list">
+            
+            <div class="footer-contact-item">
+              <span class="contact-item-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <span class="contact-company-name">Zhejiang Maven Industrial Technology Co., Ltd.</span>
+                <span class="contact-sub-text">HQ: Tongxiang, Zhejiang, China</span>
+                <span class="contact-sub-text">US: MAVEN US LLC, Miami, FL</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <span class="contact-item-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </span>
+              <div>
+                <span class="contact-person-name">Ava Bao</span>
+                <span class="contact-sub-text">Director of Business Development</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <span class="contact-item-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <div>
+                <a href="mailto:info@mavencn.com" class="contact-link">info@mavencn.com</a>
+                <a href="mailto:ava.bao@mavencn.com" class="contact-link">ava.bao@mavencn.com</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <span class="contact-item-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <div>
+                <a href="tel:+864000000000" class="contact-link">+86-400-0000000</a>
+                <a href="tel:+12065677777" class="contact-link">+1 206 567 7777</a>
+              </div>
+            </div>
+
+          </div>
         </div>
+
       </div>
 
+      <!-- Bottom Bar -->
       <div class="footer-bottom-bar">
         <div>&copy; 2026 Zhejiang Maven Industrial Technology Co., Ltd. All Rights Reserved.</div>
-        <div>Official Websites: mavencn.com | ai-bottle.com</div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <span class="bottom-sep">|</span>
+          <a href="#">Terms of Use</a>
+          <span class="bottom-sep">|</span>
+          <a href="#">Sitemap</a>
+        </div>
       </div>
     </div>
   </footer>
 
-  <!-- MODAL -->
+  <!-- REQUEST A QUOTE MODAL DIALOG -->
   <div class="modal-overlay" id="rfqModal">
     <div class="modal-content">
       <button class="modal-close close-rfq">&times;</button>
       <div class="section-num" style="margin-bottom: 0.4rem;">DIRECT INQUIRY</div>
-      <h3 style="font-size: 1.8rem; color: var(--color-maven-green-dark); margin-bottom: 0.5rem;">REQUEST A PACKAGING QUOTE</h3>
-      <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 2rem;">Fill out your packaging requirements and our team will respond within 24 business hours.</p>
+      <h3 style="font-size: 1.8rem; color: var(--color-espresso-dark); margin-bottom: 0.5rem;">START YOUR PROJECT</h3>
+      <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 2rem;">Complete the form below to receive a factory direct quotation or physical sample kit within 24 business hours.</p>
 
       <form class="quote-form-handler">
         <div class="form-row">
@@ -185,12 +309,61 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label class="form-label">Project Details & Specifications *</label>
-          <textarea class="form-control" required placeholder="Describe bottle volume, neck size, cap type, decoration preferences, or paper box style."></textarea>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Business Email *</label>
+            <input type="email" class="form-control" required placeholder="name@company.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">What are you looking for? *</label>
+            <input type="text" class="form-control" required placeholder="e.g. 50ml glass serum bottle + custom box">
+          </div>
         </div>
 
-        <button type="submit" class="btn btn-green" style="width: 100%;">SUBMIT QUOTE REQUEST</button>
+        <div style="background-color: var(--color-ivory); padding: 1.25rem; border-radius: var(--radius-xs); margin-bottom: 1.5rem; border: 1px solid var(--color-border-light);">
+          <div style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-gold-accent); margin-bottom: 1rem;">Additional Specifications (Optional)</div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp</label>
+              <input type="text" class="form-control" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Packaging Category</label>
+              <select class="form-control">
+                <option>Glass Bottles & Jars</option>
+                <option>Plastic Packaging (PET/PP/PCR)</option>
+                <option>Luxury Paper Boxes & Cartons</option>
+                <option>Integrated Glass + Paper Set</option>
+                <option>Fragrance Perfume Packaging</option>
+                <option>Custom Private Mold Project</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Estimated Order Quantity</label>
+              <select class="form-control">
+                <option>5,000 to 10,000 units</option>
+                <option>10,000 to 50,000 units</option>
+                <option>50,000+ units</option>
+                <option>Custom sample evaluation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Attach Drawing / Artwork</label>
+              <input type="file" class="form-control" style="padding: 0.5rem;">
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 0;">
+            <label class="form-label">Detailed Project Specifications</label>
+            <textarea class="form-control" placeholder="Bottle capacity, neck thread, cap type, decoration, or secondary box style."></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width: 100%;">START YOUR PROJECT</button>
       </form>
     </div>
   </div>
